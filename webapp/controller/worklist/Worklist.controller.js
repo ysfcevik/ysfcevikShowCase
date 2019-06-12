@@ -131,9 +131,9 @@ sap.ui.define([
 		onPress : function (oEvent) {
 			// The source is the list item that got pressed
 			var oItem = oEvent.getSource();
-			var oCtx  = oItem.getBindingContext("items");
+			var productId = oItem.getBindingContext('products').getProperty('ProductId');
+			console.log(productId);
 			
-			var sPath = oCtx.getPath() ;
 			
 			// var oView = this.getView();
 			// var sName = oView.getModel().getProperty("name", oItem.getBindingContext("sites"));
