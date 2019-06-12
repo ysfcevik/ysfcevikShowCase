@@ -1,0 +1,13 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:l="sap.ui.layout"
+		xmlns:forms="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m">
+		<l:VerticalLayout class="sapUiContentPadding">
+			<Label text="{i18n>personalViewCertificateTitle}" design="Bold" class="sapUiSmallMarginTop"/>
+			<ObjectAttribute text="C_TAW12_740 SAP Certified Development Associate- ABAP with SAP NetWeaver 7.40"/>
+			<ObjectAttribute text="Microsoft Software and Database Expertise Training (Bahcesehir University)"/>
+			<ObjectAttribute text="TOEFL (IBT) : 75 (R:20 L:20 S:15 W:20)"/>
+		</l:VerticalLayout>
+</mvc:View>

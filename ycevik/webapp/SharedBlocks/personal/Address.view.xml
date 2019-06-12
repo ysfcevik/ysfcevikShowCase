@@ -1,0 +1,15 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
+		  xmlns:core="sap.ui.core" xmlns="sap.m">
+
+	<forms:SimpleForm editable="false" width="100%">
+
+		<core:Title text="Addresses"/>
+
+		<Label text="{i18n>personalViewHomeAddrTitle}"/>
+		<Text text="Studentski Grad, Sofia, Bulgaria"/>
+
+		<Label text="{i18n>personalViewMailAddrTitle}"/>
+		<Text text="K.Cekmece, Istanbul, Turkey"/>
+
+	</forms:SimpleForm>
+</mvc:View>

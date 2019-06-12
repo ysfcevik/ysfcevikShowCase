@@ -1,0 +1,29 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:l="sap.ui.layout"
+		xmlns:forms="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m">
+		<l:VerticalLayout class="sapUiContentPadding">
+			<Label text="{i18n>PersonalViewBriefExp}" design="Bold" class="sapUiSmallMarginTop"/>
+			<ObjectAttribute
+				text="Mr. Yosif Danchev has been working as a software consultant for 5,5 years of experience in software industry as an SAP Certified ABAP consultant and also worked on various Full-Cycle implementation projects."/>
+			<!--<Label text="{i18n>PersonalViewExpSummaryTitle}" design="Bold" class="sapUiSmallMarginTop"/>-->
+			<!--<ObjectAttribute text="5,5 years of strong SAP ABAP development experience in FI, CO, SD, MM, TRM, PM, QM,FS-CM modules"/>-->
+			<!--<ObjectAttribute text="Experience in ABAP/4 interfaces development, data conversions, enhancements, repairs, BADI and User Exits"/>-->
+			<!--<ObjectAttribute text="Extensively worked on interactive reports, ALV and dialog programming"/>-->
+			<!--<ObjectAttribute text="Knowledge and experience on UI5-Fiori development"/>-->
+			<!--<ObjectAttribute text="Good experience on ABAP/4 object programming"/>-->
+			<!--<ObjectAttribute text="Heavy good experience in data dictionary"/>-->
+			<!--<ObjectAttribute text="Experienced in using various modularization techniques like subroutines, function modules, RFC’s and class modules"/>-->
+			<!--<ObjectAttribute text="Experienced in Netweaver Gateway Services (ODATA)"/>-->
+			<!--<ObjectAttribute text="Experienced in creating and using CDS views"/>-->
+			<!--<ObjectAttribute text="Good experience in dialog programming, designing and developing layouts and forms using SMARTFORMS and ADOBEFORMS"/>-->
+			<!--<ObjectAttribute text="Expertise in performance analysis and tuning using various debugging tools like run time analysis and SQL trace"/>-->
+			<!--<ObjectAttribute text="Request transportations and object compatibilities between different clients and systems"/>-->
+			<!--<ObjectAttribute text="Good Experience using ABAP/4 Workbench Tools, reporting, customization, conversion and data extraction"/>-->
+			<!--<ObjectAttribute text="Excellent trouble shooting and debugging skills"/>-->
+			<!--<ObjectAttribute text="Excellent communication and time management skills with strong analytical, problem solving and decision making capability"/>-->
+			<!--<ObjectAttribute text="Good understanding of both business processes and technical development"/>-->
+		</l:VerticalLayout>
+</mvc:View>

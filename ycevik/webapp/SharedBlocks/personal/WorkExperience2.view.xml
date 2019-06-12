@@ -1,0 +1,42 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:l="sap.ui.layout"
+		xmlns:forms="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m">
+	<l:VerticalLayout class="sapUiContentPadding">
+		<ObjectHeader
+			title="{i18n>Kaufland}"
+			icon="images/companyLogos/kaufland.png">
+			<attributes>
+				<ObjectAttribute text="11.2017 - 04.2019" />
+				<ObjectAttribute text="SAP ABAP Developer" />
+			</attributes>
+		</ObjectHeader>
+		<ObjectHeader
+			title="{i18n>Idecon}"
+			number=""
+			icon="images/companyLogos/idecon.png">
+			<attributes>
+				<ObjectAttribute text="09.2017 - 10.2017" />
+				<ObjectAttribute text="SAP ABAP Consultant" />
+			</attributes>
+		</ObjectHeader>
+		<ObjectHeader
+			title="{i18n>Epicode}"
+			icon="images/companyLogos/epicode.png">
+			<attributes>
+				<ObjectAttribute text="11.2016 - 09.2017" />
+				<ObjectAttribute text="SAP ABAP Consultant" />
+			</attributes>
+		</ObjectHeader>
+		<ObjectHeader
+			title="{i18n>Vizyoneks}"
+			icon="images/companyLogos/vizyoneks.png">
+			<attributes>
+				<ObjectAttribute text="07.2013 - 11.2016" />
+				<ObjectAttribute text="SAP ABAP Consultant" />
+			</attributes>
+		</ObjectHeader>
+	</l:VerticalLayout>
+</mvc:View>
